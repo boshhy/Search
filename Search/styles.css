@@ -37,6 +37,7 @@ input[type="text"] {
     cursor: pointer;
     user-select: none;
 }
+
 .button_class:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
@@ -68,11 +69,19 @@ input[type="text"] {
 
 .topRight {
     float: right;
-    padding-right: 10px;
-    padding-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .topRight a {
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, RobotoDRaft, arial, sans-serif;
+    font-size: 13px;
+}
+
+.topRight a:hover {
+    text-decoration: underline;
 }

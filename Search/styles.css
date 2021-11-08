@@ -1,4 +1,5 @@
 .search_bar {
+    padding-left: 30px;
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -36,4 +37,21 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.search_div {
+    position: relative;
+}
+
+.search_div img {
+    position: absolute;
+    clip: rect(0px, 20px, 20px, 0px);
+    background-size: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    top: 15px;
+    left: 10px;
 }

@@ -17,6 +17,10 @@
     border-color: rgba(223, 225, 229, 0);
 }
 
+input[type="text"] {
+    outline: none;
+}
+
 .button_class {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;

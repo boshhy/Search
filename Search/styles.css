@@ -11,6 +11,12 @@
     max-width: 584px;
 }
 
+.search_bar:hover {
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
 .button_class {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -26,6 +32,11 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+.button_class:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
 }
 
 .container {
@@ -44,9 +55,6 @@
 .search_div img {
     position: absolute;
     clip: rect(0px, 20px, 20px, 0px);
-    background-size: 20px;
-    min-height: 20px;
-    min-width: 20px;
     width: 20px;
     display: flex;
     align-items: center;

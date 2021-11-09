@@ -103,6 +103,15 @@ input[type="text"] {
 
 .advanced_container {
     text-align: left;
+    max-width: 100%;
+    min-width: 200px;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    font-family: Roboto, arial, sans-serif;
+    color: #333333;
 }
 
 .advanced_container input {
@@ -120,4 +129,22 @@ input[type="text"] {
 
 .advanced_line {
     border-bottom: 2px solid #ebebeb;
+}
+
+table {
+    width: 90%;
+    min-width: 20px;
+    max-width: 900px;
+    border-collapse: collapse;
+}
+
+.advanced_small {
+    width: 200px;
+    font-size: 13px;
+}
+
+.advanced_button {
+    height: 30 px;
+    min-width: 120 px;
+    background-color: purple;
 }

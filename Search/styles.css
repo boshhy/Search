@@ -95,3 +95,29 @@ input[type="text"] {
     bottom: 115px;
     z-index: 1;
 }
+
+.advanced_logo {
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.advanced_container {
+    text-align: left;
+}
+
+.advanced_container input {
+    height: 25px;
+    background-color: orange;
+    width: 100%;
+}
+
+.advanced_search_label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-family: Roboto, arial, sans-serif;
+}
+
+.advanced_line {
+    border-bottom: 2px solid #ebebeb;
+}

@@ -2,10 +2,41 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
+        <link rel="stylesheet" href="styles.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <a href="index.html">Search</a>
-        image page
+        <div class="topRight">
+            <a href="index.html">Google Search</a>
+        </div>
+        <!--
+            This will take you to image page by 
+            replacing laser: https://www.google.com/search?q=laser&tbm=isch
+        -->
+        <div class="container">
+            <img src="images/google_logo.png" alt="google logo" />
+            <div class="image_text">Images</div>
+            <div class="search_div">
+                <form action="https://www.google.com/search">
+                    <input
+                        class="search_bar"
+                        type="text"
+                        name="q"
+                        autocomplete="off"
+                        placeholder="Search images..."
+                    />
+                    <img src="images/searchicon.webp" class="sb43" />
+                    <button
+                        class="button_class"
+                        name="tbm"
+                        type="submit"
+                        value="isch"
+                        type="hidden"
+                    >
+                        Image Search
+                    </button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

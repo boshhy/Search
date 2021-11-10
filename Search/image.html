@@ -6,17 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+        <!-- This div with 'topRight' class will be used to position the return link to index.html -->
         <div class="topRight">
             <a href="index.html">Google Search</a>
         </div>
-        <!--
-            This will take you to image page by 
-            replacing laser: https://www.google.com/search?q=laser&tbm=isch
-        -->
+        <!-- This div with the 'container' class well be used to position image and buttons to the middle -->
         <div class="container">
             <img src="images/google_logo.png" alt="google logo" />
             <div class="image_text">Images</div>
             <div class="search_div">
+                <!-- form will be used to get users search query and go to googles own image results for that query -->
                 <form action="https://www.google.com/search">
                     <input
                         class="search_bar"
@@ -26,6 +25,8 @@
                         placeholder="Search images..."
                     />
                     <img src="images/searchicon.webp" class="sb43" />
+                    <!-- This button has to have the name='tbm' and value='isch' so google can know 
+                         that is should return the images for the entered query -->
                     <button
                         class="button_class"
                         name="tbm"

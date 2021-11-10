@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+        <!-- This div with 'topRight' class will be used to position the return link to index.html -->
         <div class="topRight">
             <a href="index.html">Google Search</a>
         </div>
+        <!-- This 'a' tag will gold a logo and be position on the top left. Just like google. -->
         <a href="index.html">
             <img
                 class="advanced_logo"
@@ -20,18 +22,21 @@
             <label>Advanced Search</label>
         </div>
         <div class="advanced_line"></div>
-        <!-- need to make advaned_container-->
+        <!-- This div with the 'container' class well be used to position text and search boxes to the left using a table -->
         <div class="advanced_container">
             <div>Find pages with...</div>
             <br />
             <div class="search_div">
                 <form action="https://www.google.com/search">
+                    <!-- Using a table to be able to align everything so it looks like googles own advaned serach page
+                         table will hold 5 rows one for each search type and one for the button
+                         each row, besides the button row, will hold two data inputs one for the text wraped in a 'p'
+                         tag and the other will hold an input tag -->
                     <table>
                         <tr>
                             <td class="advanced_small">
                                 <p>all these words:</p>
                             </td>
-                            <!-- need to make advenced_bar-->
                             <td>
                                 <input
                                     class="advanced_bar"
